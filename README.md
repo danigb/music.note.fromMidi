@@ -8,7 +8,7 @@
 [![license](https://img.shields.io/npm/l/music.note.from-midi.svg)](https://www.npmjs.com/package/music.note.from-midi)
 [![music.kit](https://img.shields.io/badge/music-kit-yellow.svg)](https://www.npmjs.com/package/music.kit)
 
-`music.note.fromMidi` is a tiny function (231 bytes minified) to get the note name from a midi number (using [MIDI Tuning Standard](https://en.wikipedia.org/wiki/MIDI_Tuning_Standard) where 'A4' is midi number 69):
+`fromMidi` is a tiny function (231 bytes minified) to get the note name from a midi number (using [MIDI Tuning Standard](https://en.wikipedia.org/wiki/MIDI_Tuning_Standard) where 'A4' is midi number 69):
 
 ```js
 var fromMidi = require('music.note.from-midi')
